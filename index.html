@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Du lịch cộng đồng Bản Bon – Mường Chiên</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Bản Bon – Mường Chiên</div>
+    <nav>
+      <ul>
+        <li><a href="#home" data-lang="home">Trang chủ</a></li>
+        <li><a href="#about" data-lang="about">Giới thiệu</a></li>
+        <li><a href="#experience" data-lang="experience">Trải nghiệm</a></li>
+        <li><a href="#homestay" data-lang="homestay">Homestay</a></li>
+        <li><a href="#contact" data-lang="contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button onclick="setLanguage('vi')">VI</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h1 data-lang="welcome">Chào mừng đến với Du lịch cộng đồng Bản Bon</h1>
+    <p data-lang="slogan">Khám phá – Trải nghiệm – Gắn kết</p>
+  </section>
+
+  <section id="about">
+    <h2 data-lang="about_title">Giới thiệu</h2>
+    <p data-lang="about_text">Bản Bon, xã Mường Chiên, Sơn La nổi bật với hồ thủy điện, suối khoáng nóng và văn hóa Thái đặc sắc.</p>
+  </section>
+
+  <section id="experience">
+    <h2 data-lang="experience_title">Trải nghiệm nổi bật</h2>
+    <ul>
+      <li data-lang="exp1">Tắm suối khoáng nóng</li>
+      <li data-lang="exp2">Đi thuyền trên hồ thủy điện</li>
+      <li data-lang="exp3">Tham gia lễ hội múa xòe, uống rượu cần</li>
+    </ul>
+  </section>
+
+  <section id="homestay">
+    <h2 data-lang="homestay_title">Homestay & Ẩm thực</h2>
+    <p data-lang="homestay_text">Các homestay truyền thống với ẩm thực địa phương: cá nướng, xôi ngũ sắc, thịt trâu gác bếp...</p>
+  </section>
+
+  <section id="contact">
+    <h2 data-lang="contact_title">Liên hệ</h2>
+    <p>Email: dulichbanbon@gmail.com</p>
+    <p>Điện thoại: 0123 456 789</p>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18..."
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="zalo">
+      <p>Kết nối Zalo:</p>
+      <img src="zalo-qr.png" alt="QR Zalo" width="150">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Du lịch cộng đồng Bản Bon – Mường Chiên</p>
+  </footer>
+</body>
+</html>
